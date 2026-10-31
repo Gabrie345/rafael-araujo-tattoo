@@ -365,6 +365,8 @@ footer{padding:54px 0 calc(100px + env(safe-area-inset-bottom));background:var(-
 .foot img{width:46px;height:auto}
 @media (min-width:900px){.foot{grid-template-columns:1.4fr auto auto;align-items:end;gap:60px}footer{padding-bottom:54px}}
 
+.credito{margin-top:34px;padding-top:12px;border-top:1px solid var(--hair-ink);text-align:center;color:var(--on-ink-2);font-size:13px;line-height:1.4}
+.credito a{display:inline-block;padding:10px 2px;color:var(--on-ink-2)}
 .fab{position:fixed;left:var(--gutter);right:calc(var(--gutter) + 4px);bottom:max(14px,env(safe-area-inset-bottom));z-index:30;opacity:0;transform:translateY(24px);pointer-events:none;
   transition:opacity .45s var(--ease-out),transform .45s var(--ease-out),background-color .3s var(--ease-soft)}
 .fab.show{opacity:1;transform:none;pointer-events:auto}
@@ -607,6 +609,7 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       <small><br>© 2026 Rafael Araújo Tattoo<br>Os personagens pertencem aos seus criadores.</small>
     </div>
   </div>
+  <div class="wrap"><p class="credito">Site feito por Gabriel · <a href="https://wa.me/5511991188468?text=Oi%2C%20Gabriel!%20Vi%20o%20site%20do%20Rafael%20Ara%C3%BAjo%20e%20quero%20um%20site%20tamb%C3%A9m." target="_blank" rel="noopener">(11) 99118-8468</a></p></div>
 </footer>
 
 <a class="btn btn-red fab" id="fab" href="https://wa.me/5511958644330?text=Oi%2C%20Rafael!%20Vi%20seu%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><svg aria-hidden="true"><use href="#wa"/></svg>Pedir orçamento</a>
