@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gabrie345.github.io/rafael-araujo-tattoo/sitemap.xml
